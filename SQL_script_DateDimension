@@ -48,7 +48,6 @@ BEGIN
 		SET @Startdate = DATEADD(day, 1, @Startdate)
 		
 end
---drop table #DimDate
---truncate table #DimDate
+
 SELECT * FROM #DimDate
 
